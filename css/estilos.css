@@ -90,23 +90,8 @@ transition: all o.3s linear;
 }
 
 /* pagina de nuevo restaurante*/
-#nuevo{
-    font-size: o.875rem;
-    margin: 0;
-    padding: 0;
-    background: radial-gradient(#ffffff, #000000);
-    font-family: sans-serif;
-    line-height: 2.2;
-}
-/* pagina de buscar restaurante*/
-#buscar{
-    font-size: o.875rem;
-    margin: 0;
-    padding: 0;
-    background: radial-gradient(#ffffff, #000000);
-    font-family: sans-serif;
-    line-height: 2.2;  
-}
+
 #t_nuevo{
+    
     background-color: white;
 }
