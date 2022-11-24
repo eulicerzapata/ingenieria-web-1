@@ -29,34 +29,35 @@
     </div>
   </nav>
    
-
-  <form action="../../form-result.php" method="post" target="_blank">
-
-    <p>
   
-      Búsqueda de restaurantes: <input type="search" name="busquedarestaurante" placeholder="buscar restaurantes">
-  
-      <input type="submit" value="Buscar">
-  
-    </p>
-  
-  </form>
-
-
-
-
-
-
-
+ 
+     <form>
   <div class="container p-5 my-5 border">
     <!--espacio y boton para buscar los restaurantes-->
-    <div class="input-group mb-3">
-      <input id="buscar" type="text" class="form-control" placeholder="Buscar restaurante">
-      <button class="btn btn-success" type="submit">Buscar</button>
+    <div class=" mb-3">
+      <input type="text" id="buscar"  placeholder="Buscar" >
+      <button  class="btn btn-primary" id="botonbuscar" type="button" onclick="mifunction()" >Buscar</button>
     </div>
   </div>
+</form>
 
-  <div id="contain"></div>
-  <script src="js/index2.js"></script>
+  <div  id="containr" class="container">
 
+   <!--restaurante -->
+    <div class="card">
+      <div class="card-container">
+
+      </div>
+    </div>
+
+  </div>
+  </div>
+    
+
+
+  <script src="js/buscador.js" ></script>
+<body>
+  
+</body>
 </html>
+<!--<button  class="btn btn-primary" id="botonbuscar" type="button" onclick="mifunction()" >Buscar</button> -->
