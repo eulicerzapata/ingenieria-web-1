@@ -10,13 +10,13 @@ const restaurantes = [
     ,
     {
         imagen: (`<img src="imagenes/italiano_65_1.jpg"/>`),
-        nombre: "Italiano 65",
+        nombre: "Italian 65",
         direccion: "Av 45 Nro. 1-85 Medellin",
         describcion: "Deliciosa comida Italiana"
     },
     {
         imagen: (`<img src="imagenes/R_com_rapida_1.jpg"/>`),
-        nombre: "Fritos y mas ",
+        nombre: "Fritos y mas",
         direccion: "calle 45 Medellin",
         describcion: "Comida Rapida",
 
@@ -53,11 +53,11 @@ function mifunction() {
 
     if (busca===a) {
          volean=true
-       document.getElementById("containr").innerHTML =restauran(restaurantes[i]);  
+       document.getElementById("container").innerHTML =restauran(restaurantes[i]);  
     }
    }
     if (volean==false) {
-        document.getElementById("containr").innerHTML =" error"; 
+        document.getElementById("container").innerHTML =" No se encontraron resultados..."; 
     }
  }
 
